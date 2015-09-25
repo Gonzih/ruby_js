@@ -17,7 +17,8 @@ Gem::Specification.new do |s|
   #s.extra_rdoc_files = ["README.rdoc", "TODO.rdoc"]
   s.test_files = `git ls-files -z -- test`.split("\0")
 
-  s.add_runtime_dependency(%q<ffi>, ["~> 1.0.8"])
+  s.add_runtime_dependency(%q<ffi>, ["~> 1.9.10"])
+  s.add_runtime_dependency(%q<gir_ffi>, ["~> 0.8.0"])
 
   s.require_paths = ["lib"]
 end
