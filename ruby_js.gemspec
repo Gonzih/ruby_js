@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "ruby_js"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
   #s.date = Time.now.to_s
  
 
